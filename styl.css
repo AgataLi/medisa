@@ -9,12 +9,22 @@ General
 body, header, main, nav, section, footer {
 		margin: 0;
 		padding: 0;
+		max-width: 100%;
 }
 
+h1, h2, h3, p, span {
+	margin: 0;
+	padding:0;
+}
+
+img {
+	margin: 0;
+	padding: 0;	
+}
 body {
-	font-size: 34px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 24px;
 	color: #444141;
-	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -32,7 +42,7 @@ a:link
 
 a:visited
 {
-   color: #d6994f;
+   color: #444141;
 }
 
 a:hover
@@ -45,6 +55,16 @@ a:active
    color: #444141;
 }
 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+}
+
 /*
 Header
 */
@@ -53,28 +73,42 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 }
+
 .address {
-	background-color: #8fef40;
-		flex-basis: 100%;
-		overflow: hidden;
+	background-color: #efefef;
+	flex-basis: 100%;
+	overflow: hidden;
+	font-size: 0.8em;
 }
 
 .brand-logo {
-	background-color: #f4f442;
-	flex-basis: 30%;
+	flex-basis: 20%;
+}
+.logo {
+	min-width: 190px;
+}
+.title {
+	flex-basis: 35%;
 	overflow: hidden;
 }
 
 .navbar {
-	background-color: #8288d6;
-	flex-basis: 70%;
+	flex-basis: 45%;
 	overflow: hidden;
+	text-align: right;
+	
 }
 
 /*Hero*/
 .hero {
 	background-color: #e5a39c;
 	overflow: hidden;
+	margin-bottom: -5px;
+	padding: 0;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1000px;
+	height: auto;
 }
 
 /*Main*/
@@ -83,12 +117,29 @@ main {
 	flex-wrap: wrap;
 	flex-direction: row;
 	overflow: hidden;
+
 }
-.section1 {
+.section_first {
 	background-color: #b3e59c;
 	flex-basis: 33.33%;
 	overflow: hidden;
+	display: flex;
+flex-direction: row;
+flex-wrap: wrap;
 }
+
+.logosmall {
+	flex-basis: 20%;
+}
+.logopurple {
+	min-width: 47px;
+}
+.section_desription {
+	flex-basis: 35%;
+	overflow: hidden;
+}
+
+
 .section2 {
 	background-color: #ce4a4e;
 	flex-basis: 33.33%;
@@ -100,17 +151,15 @@ main {
 	overflow: hidden;
 }
 
-
 /*Article*/
 .section4 {
 	background-color: #ff5bd6;
 	overflow: hidden;
 }
 
-
-
-
 /*Footer*/
 footer {
+	text-align: center;
 	background-color: #d36ee5;
+	font-size: 0.5em;
 }

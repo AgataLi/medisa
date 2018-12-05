@@ -6,13 +6,15 @@ do 575px
 >1200
 */
 
-@media (max-width: 575px) {
+
+@media screen and (max-width: 575px) {
 
 body {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: center;
+	max-width: 100%;
 }
 
 header{
@@ -26,7 +28,7 @@ flex-direction: column;
 }
 
 .brand-logo {
-
+flex-direction: column;
 }
 
 .navbar {
