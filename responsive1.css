@@ -1,0 +1,82 @@
+@media screen and (min-width: 300px) {
+
+	.rehabilitacja {
+			min-height: 100px;
+			 
+	}
+
+	.reha_header {
+		
+		height: 50px;
+	}
+
+	.logosmall {
+		margin-right: 10px;
+
+	}
+
+}
+
+
+
+@media screen and (max-width: 884px) {
+
+	main {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		overflow: hidden;
+
+	}
+
+	.address_footer li {
+	padding: 0 0;
+  }
+
+footer {
+	text-align: center;
+	font-size: 0.6em;
+
+}
+
+footer .fas {
+	color: #efefef;
+}
+}
+
+
+@media screen and (max-width: 900px) {
+
+.address {
+		font-size: 0.7em;
+		align-content: left;
+		}
+
+.address_head {
+	text-align: left;
+	
+}
+
+.address_head li{
+	  padding: 5px 5px 5px 5px;
+ }
+
+.fa-facebook-square {
+	font-size: 30px;
+}
+
+
+}
+
+@media screen and (max-width: 1020px) {
+
+.title {
+	padding-left: 5px;
+	
+}
+
+.title h1 {
+	font-weight: bold;
+	font-size: 25px;
+}
+}
