@@ -29,6 +29,13 @@
 
 	}
 
+	.all_offer {	
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		overflow: hidden;
+}
+
 	.address_footer li {
 	padding: 0 0;
   }
