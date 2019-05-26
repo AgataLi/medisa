@@ -346,6 +346,14 @@ h2 {
 	flex-basis: 93.42%;
 
 }
+.about_title > h2{
+	margin-top: 20px;
+}
+
+.about_text{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
 /*Footer*/
 footer {
 	text-align: center;
