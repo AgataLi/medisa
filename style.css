@@ -15,7 +15,7 @@ body, header, main, footer {
 	}
 
 main {
-	max-width: 1200px;
+	max-width: 1250px;
 	margin-right: auto;
 	margin-left: auto;
 	
@@ -24,13 +24,11 @@ h1, h2, h3, p, span {
 	margin: 0;
 	padding:0;
 	font-weight: normal;
-	
 }
 
 img {
 	margin: 0;
 	padding: 0;	
-	
 }
 
 body {
@@ -92,6 +90,7 @@ header{
 	box-shadow:0px 1px 0px 1px #ffffff ,0px 2px 2px 0px #ced0ce ;
 }
 
+
 .header_main {
 	flex-basis: 100%;
 	display: flex;
@@ -113,25 +112,26 @@ header{
 
 .logo {
 	min-width: 190px;
-	margin-right: 50px;
-	margin-bottom: 10px;
+	margin-right: 3em;
+	margin-bottom: 1em;
+	margin-left: 0;
 
 }
 .title {
-	padding-left: 10px;
+	padding-left: 0.8em;
+	margin-bottom: 0.8em;
 	
 }
 
 .title h1 {
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 2em;
 }
 
 .address {
 	flex-basis: 100%;
 	font-size: 0.8em;
 	font-weight: 700;
-	
 	max-height: 100px;
 	background-color: #ffffff;
 }
@@ -140,18 +140,17 @@ header{
 .address_head {
 	display: block;
 	text-align: right;
-	
 }
 
 .address_head li{
 	font-weight: normal;
 	color: #000;
-  padding: 5px 5px 5px 35px;
+  padding: 0.1em 0.1em 0.1em 2em;
   text-decoration: none;
 }
 
 .fa-facebook-square {
-	font-size: 34px;
+	font-size: 2.5em;
 }
 
 .fas {
@@ -161,7 +160,7 @@ header{
 .address_head a {
   display: block;
   color: #000;
-  padding: 5px;
+  padding: 0.1em;
   text-decoration: none;
 
 }
@@ -170,14 +169,13 @@ header{
 	flex-basis: 100%;
 	display: block;
 	text-align: left;
-	
 	padding: 0;
 	font-weight: 400;
 	
 }
 
 .nav li{
-	margin: 10px 35px 0px 5px;
+	margin: 0 2em 0 0;
 }
 
 
@@ -203,19 +201,14 @@ header a:active
 }
 
 
-
-
-
 /*Main*/
 .main_page {
-
-	
 }
 
 
 .section_main{
-	margin-top: 12px;
-	margin-bottom: 36px;
+	margin-top: 1em;
+	margin-bottom: 2.5em;
 }
 
 .main_header{
@@ -225,16 +218,16 @@ header a:active
 .invitation {
 font-style: italic;
 text-align: justify;
-font-size: 18px;
-margin-top: 36px;
+font-size: 1em;
+margin-top: 2em;
 	
 }
 .sign {
 font-family: 'Courgette', cursive;
-font-size: 18px;
+font-size: 1em;
 text-align: right;
-margin-top: 20px;
-margin-bottom: 20px;
+margin-top: 1em;
+margin-bottom: 1em;
 }
 
 .main_title {
@@ -242,14 +235,14 @@ margin-bottom: 20px;
 }
 
 .section_desription_main {
-	margin: 10px 0;
+	margin: 0.8em 0;
 	font-weight: 800;
 	text-align: justify;
 }
 
 
 .description_list{
-	margin: 20px;
+	margin: 1em;
 }
 	
 
@@ -267,18 +260,20 @@ margin-bottom: 20px;
 }
  
 .all_others {
-	margin: 10px 0;
+	margin: 1em 0;
 }
 .all_others > h2{
 	color: #00AEEF;
-	margin: 10px 0;
+	margin: 0.8em 0;
 	
 }
 
 .all_offer {
-display: flex;
+	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin-top: 2em;
+	margin-left: 0;
 }
 
 .rehabilitacja {
@@ -289,9 +284,8 @@ display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	min-height: 300px;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	padding: 10px;
+
+	padding: 0.8em;
 	
 -webkit-box-shadow:0px 0px 0px 1px #ffffff ,0px 0px 10px 0px #ced0ce ;
 -moz-box-shadow:0px 0px 0px 1px #ffffff ,0px 0px 10px 0px #ced0ce ;
@@ -302,20 +296,28 @@ box-shadow:0px 0px 0px 1px #ffffff ,0px 0px 10px 0px #ced0ce ;
 .about_desription {
 	box-shadow: 0;
 }
+
 .first {
-	margin-right: 5px;
+	margin-right: 0.2em;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+
 }
 
 .second{
-margin-left: 5px;
+margin-left: 0.2em;
+margin-top: 0;
+margin-bottom: 0.5em;
 }
 
 .third {
-margin-right: 5px;
+margin-right: 0.2em;
+margin-top: 0.5em;
 }
 
 .fourth {
-	margin-left: 5px;
+	margin-left: 0.2em;
+	margin-top: 0.5em;
 }
 
 .reha_header {
@@ -338,7 +340,6 @@ margin-right: 5px;
 
 h2 {
 	font-weight: 700;
-
 }
 
  
@@ -352,20 +353,20 @@ h2 {
 
 }
 .about_title > h2{
-	margin-top: 20px;
+	margin-top: 2em;
 }
 
 .about_text{
-	margin-bottom: 10px;
-	margin-top: 10px;
+	margin-bottom: 0.8em;
+	margin-top: 0.8em;
 }
 /*Footer*/
 footer {
 	text-align: center;
 	font-size: 0.7em;
-margin-top: 30px;
-padding-top: 20px;
-margin-bottom: 20px;
+	margin-top: 2em;
+	padding-top: 1.2em;
+	margin-bottom: 1.2em;
 
 -webkit-box-shadow:0px 0px 0px 1px #ffffff ,0px -1px 2px 0px #ced0ce ;
 -moz-box-shadow:0px 0px 0px 1px #ffffff ,0px -1px 2px 0px #ced0ce ;
@@ -374,15 +375,16 @@ box-shadow:0px 0px 0px 1px #ffffff ,0px -1px 2px 0px #ced0ce ;
 
 .address_footer li {
 
-	padding: 0 10px;
+	padding: 0 1em;
   text-decoration: none;
   
 }
 
 /* about */
 
-.welcome {
-	min-height: 300px;
+.about h2{
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 /* oferta */
@@ -396,30 +398,30 @@ box-shadow:0px 0px 0px 1px #ffffff ,0px -1px 2px 0px #ced0ce ;
 }
 
 .s_offer {
-	margin-top: 20px;
+	margin-top: 1.2em;
 }
 
 /*
-Oferta - Urologinekologiczna
+Oferta - Uroginekologiczna
 */
 .offer-long{
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
 	text-align: justify;
 }
 .offer-long-text{
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
 }
 
 .back_to_link > a {
-	font-size: 12px;
+	font-size: 0.8em;
 	color: #00AEF;
 }
 .description_list_title{
 	font-weight: bold;
 		text-align: justify;
-	margin-bottom: 10px;
+	margin-bottom: 0.8em;
 }
 
 /*
@@ -427,16 +429,18 @@ kontakt*/
 .contat_page{
 	display: flex;
 	flex-wrap: wrap;
+	margin-left: 2em;
 }
 .hours{
 	width: 50%;
-	margin-top: 20px;
+	margin-top: 1.2em;
 }
 .s_media{
-	margin-top: 40px;
+	
 	width: 50%;
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: no-wrap;
+align-items: center;
 }
 .znany_lekarz{
 	width: 100%;
